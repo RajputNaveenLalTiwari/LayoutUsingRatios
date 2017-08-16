@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.examples.layoutusingratios.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#22111111">
+
+    </LinearLayout>
+
+</FrameLayout>
